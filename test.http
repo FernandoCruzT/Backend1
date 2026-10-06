@@ -1,0 +1,11 @@
+@host = https://jsonplaceholder.typicode.com
+@host2 = https://pokeapi.co/api/v2
+###
+GET {{host}}/users
+###
+GET {{host}}/users/5
+###
+GET {{host2}}/pokemon/2
+
+POST {{host}}/users
+Content-Type: application/json
